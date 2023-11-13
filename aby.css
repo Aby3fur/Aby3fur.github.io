@@ -1,0 +1,117 @@
+body{
+    background-image: url(Imagenes/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.shadowbox{
+    background-color: rgba(0, 0, 0, .5);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    border-radius: 50px;
+
+}
+.h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    position: relative;
+    top: 1vh;
+
+}
+.white{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bsky{
+    width: 5%;
+    position: relative;
+    left: 43%;
+    bottom: 4vh;
+    
+}
+.twitter{
+    width: 5%;
+    position: relative;
+    left: 42%;
+    bottom: 4vh;
+    
+}
+.instagram{
+    width: 5%;
+    position: relative;
+    left: 44%;
+    bottom: 4vh;
+
+}
+.icon1{
+    text-align: center;
+    width: 25%;
+    position: relative;
+    left: 37%;
+    border-radius: 10%;
+}
+
+hr{
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.image1{
+    width: 34%;
+    border-radius: 10%;
+    position: relative;
+    left: 4.5vw;
+    top: 5vh;
+}
+
+.image2{
+    width: 37%;
+    position: relative;
+    left: 10vw;
+    top: 5vh;
+    border-radius: 10%;
+}
+
+.image3{
+    width: 35%;
+    position: relative;
+    left: 4vw;
+    top: 12vh;
+    border-radius: 10%;
+    
+}
+
+.image4{
+    width: 37%;
+    position: relative;
+    left: 9.5vw;
+    top: 6.5vh;
+    border-radius: 10%;
+
+}
+
+footer{
+    color: rgba(255, 255, 255, .4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+}
