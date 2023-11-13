@@ -1,124 +1,76 @@
-body{
+body {
     background-image: url(https://steamcommunity.com/economy/profilebackground/items/420530/40fc074aefcfe8f5fd3ee9a546639f1dc83f6ff6.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    
+    height: 2000px;
 }
 
-.shadowbox{
+.shadowbox {
     background-color: rgba(0, 0, 0, .5);
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 1%;
+    margin: 4% 20%; /* Adjusted margin for responsiveness */
     border-radius: 50px;
-
 }
-.h1{
+
+.h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: white;
-    font-size: 55px;
-    position: relative;
-    top: 1vh;
-
+    font-size: 3vw; /* Adjusted font size */
+    margin-top: 1vh;
 }
-.white{
-    font-size: 30px;
+
+.white {
+    font-size: 2vw; /* Adjusted font size */
     color: white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.bsky{
+/* Adjusted positions and sizes for social icons */
+.bsky, .twitter, .instagram, .kofi {
     width: 5%;
     position: relative;
     left: 40%;
-    bottom: 4vh;
-    
+    bottom: -3vh;
 }
-.twitter{
-    width: 5%;
+
+.icon1 {
+    text-align: center;
+    width: 22%;
     position: relative;
     left: 39%;
-    bottom: 4vh;
-    
-}
-.instagram{
-    width: 5%;
-    position: relative;
-    left: 41%;
-    bottom: 4vh;
-
-}
-
-.kofi{
-    width: 5%;
-    position: relative;
-    left: 42%;
-    bottom: 4vh; 
-}
-.icon1{
-    text-align: center;
-    width: 25%;
-    position: relative;
-    left: 37%;
     border-radius: 10%;
 }
 
-hr{
+hr {
     display: block;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-right: 40px;
     color: rgba(255, 255, 255, 0.2);
 }
 
-.image1{
-    width: 34%;
-    border-radius: 10%;
-    position: relative;
-    left: 4.5vw;
-    top: 5vh;
-}
-
-.image2{
-    width: 37%;
-    position: relative;
-    left: 10vw;
-    top: 5vh;
+/* Adjusted positions and sizes for images */
+.image1, .image2, .image3, .image4 {
+    width: 30%; /* Adjusted width */
     border-radius: 10%;
 }
 
-.image3{
-    width: 35%;
-    position: relative;
-    left: 4vw;
-    top: 12vh;
-    border-radius: 10%;
-    
-}
+.image1 { position: relative; left: 8vw; top: -5vh; }
+.image2 { position: relative; left: 15vw; top: 4.5vh; }
+.image3 { position: relative; left: -28vw; top: 40vh; }
+.image4 { position: relative; left: 33vw; top: 6vh; }
 
-.image4{
-    width: 37%;
-    position: relative;
-    left: 9.5vw;
-    top: 6.5vh;
-    border-radius: 10%;
-
-}
-
-footer{
+footer {
     color: rgba(255, 255, 255, .4);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    position: relative;
-    bottom: 3vh;
+    margin-bottom: 3vh; /* Adjusted margin */
 }
