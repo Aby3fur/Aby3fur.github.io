@@ -47,6 +47,8 @@ body {
     position: relative;
     left: 39%;
     border-radius: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 hr {
@@ -61,6 +63,8 @@ hr {
 .image1, .image2, .image3, .image4 {
     width: 30%; /* Adjusted width */
     border-radius: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 .image1 { position: relative; left: 8vw; top: -5vh; }
