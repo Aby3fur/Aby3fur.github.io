@@ -40,23 +40,30 @@ body{
 .bsky{
     width: 5%;
     position: relative;
-    left: 43%;
+    left: 40%;
     bottom: 4vh;
     
 }
 .twitter{
     width: 5%;
     position: relative;
-    left: 42%;
+    left: 39%;
     bottom: 4vh;
     
 }
 .instagram{
     width: 5%;
     position: relative;
-    left: 44%;
+    left: 41%;
     bottom: 4vh;
 
+}
+
+.kofi{
+    width: 5.1%;
+    position: relative;
+    left: 42%;
+    bottom: 4vh; 
 }
 .icon1{
     text-align: center;
