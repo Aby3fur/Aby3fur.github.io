@@ -67,8 +67,8 @@ hr {
     height: 100%;
 }
 
-.image1 { position: relative; left: 8vw; top: 1vh; }
-.image2 { position: relative; left: 15vw; top: 1vh; }
+.image1 { position: relative; left: 8vw; top: 4vh; }
+.image2 { position: relative; left: 15vw; top: 0vh; }
 .image3 { position: relative; left: 8vw; top: 5vh; }
 .image4 { position: relative; left: 15vw; top: 5vh; }
 
