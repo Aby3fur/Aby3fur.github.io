@@ -67,10 +67,10 @@ hr {
     height: auto;
 }
 
-.image1 { position: relative; left: 8vw; top: -5vh; }
+.image1 { position: relative; left: 8vw; bottom: 4.5vh; }
 .image2 { position: relative; left: 15vw; top: 4.5vh; }
-.image3 { position: relative; left: -28vw; top: 40vh; }
-.image4 { position: relative; left: 33vw; top: 6vh; }
+.image3 { position: relative; left: 8vw; top: 1vh; }
+.image4 { position: relative; left: 15vw; top: 1vh; }
 
 footer {
     color: rgba(255, 255, 255, .4);
