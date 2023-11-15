@@ -64,7 +64,6 @@ hr {
     width: 30%; /* Adjusted width */
     border-radius: 10%;
     max-width: 100%;
-    height: auto;
 }
 
 .image1 { position: relative; left: 8vw; top: 1vh; }
